@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
     boolean isEditMode = false;
     double sum = 0;
     Button editButton;
+//    Test下更新有提交吗
     //    计算金额的观察者，观察adapter的更新
     private DataSetObserver sumObser = new DataSetObserver() {
 //    当adapter的datasetChanged（）调用自动回调该方法
