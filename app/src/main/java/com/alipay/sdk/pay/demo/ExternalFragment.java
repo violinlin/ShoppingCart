@@ -13,4 +13,6 @@ public class ExternalFragment extends Fragment {
 			Bundle savedInstanceState) {
 		return inflater.inflate(R.layout.pay_external, container, false);
 	}
+
+
 }
